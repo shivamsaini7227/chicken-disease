@@ -1,0 +1,7 @@
+artifacts_root : artifacts
+
+data_ingestion:
+     root_dir: data_ingestion
+     source_url: https://github.com/shivamsaini7227/DataWeNeed/raw/main/archive.zip
+     local_file: /Users/shivamsaini/chicken-disease/artifacts/dataingestion/archive.zip
+     unzip_dir: artifacts/dataingestion
