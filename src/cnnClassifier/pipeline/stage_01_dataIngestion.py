@@ -23,10 +23,10 @@ class dataIngestionPipeline:
 
 if __name__== "__main__":
     try:
-       logger.info(f'The pipeline {stageName} has started')
+       logger.info(f'The pipeline 01 {stageName} has started')
        obj1=dataIngestionPipeline()
        obj1.main()
-       logger.info(f'The pipeline {stageName} completed')
+       logger.info(f'The pipeline 01 {stageName} completed')
     except Exception as e:
        logger.exception(e)
        raise e
